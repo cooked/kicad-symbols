@@ -5421,8 +5421,8 @@
 		)
 		(symbol "LTC3245xDE_0_0"
 			(rectangle
-				(start -15.24 17.78)
-				(end 15.24 -17.78)
+				(start -15.24 15.24)
+				(end 15.24 -15.24)
 				(stroke
 					(width 0.1524)
 					(type default)
@@ -5432,7 +5432,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 12.7 0)
+				(at -17.78 10.16 0)
 				(length 2.54)
 				(name "VIN"
 					(effects
@@ -5450,7 +5450,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 12.7 180)
+				(at 17.78 10.16 180)
 				(length 2.54)
 				(name "VOUT"
 					(effects
@@ -5468,7 +5468,7 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 20.32 270)
+				(at 5.08 17.78 270)
 				(length 2.54)
 				(name "C-"
 					(effects
@@ -5486,7 +5486,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -20.32 90)
+				(at 0 -17.78 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -5504,43 +5504,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 8.89 0)
-				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -17.78 5.08 0)
-				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -17.78 -2.54 0)
+				(at -17.78 0 0)
 				(length 2.54)
 				(name "~{BURST}"
 					(effects
@@ -5558,7 +5522,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -10.16 0)
+				(at -17.78 -7.62 0)
 				(length 2.54)
 				(name "SEL1"
 					(effects
@@ -5576,7 +5540,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -13.97 0)
+				(at -17.78 -11.43 0)
 				(length 2.54)
 				(name "SEL2"
 					(effects
@@ -5593,44 +5557,8 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 17.78 -2.54 180)
-				(length 2.54)
-				(name "OUTS/ADJ"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 17.78 5.08 180)
-				(length 2.54)
-				(name "PGOOD"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
 			(pin passive line
-				(at -5.08 20.32 270)
+				(at -5.08 17.78 270)
 				(length 2.54)
 				(name "C+"
 					(effects
@@ -5650,7 +5578,7 @@
 		)
 		(symbol "LTC3245xDE_1_0"
 			(pin passive line
-				(at 0 -20.32 90)
+				(at 0 -17.78 90)
 				(length 2.54) hide
 				(name "EP"
 					(effects
@@ -5660,6 +5588,78 @@
 					)
 				)
 				(number "13"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 10.16 0)
+				(length 2.54) hide
+				(name "VIN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -17.78 10.16 0)
+				(length 2.54) hide
+				(name "VIN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 17.78 -7.62 180)
+				(length 2.54)
+				(name "OUTS/ADJ"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 17.78 0 180)
+				(length 2.54)
+				(name "PGOOD"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 1.016 1.016)
